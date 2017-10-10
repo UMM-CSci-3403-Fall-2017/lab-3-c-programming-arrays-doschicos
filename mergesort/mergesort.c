@@ -3,7 +3,6 @@
 #include <stdbool.h>
 #include "mergesort.h"
 
-
 void mergeRanges(int* values, int startIndex, int midPoint, int endIndex){
         int rangeSize = endIndex - startIndex;
         int* temp = (int*) calloc(rangeSize+1, sizeof(int));
